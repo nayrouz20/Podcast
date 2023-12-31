@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Comedy"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suggested list"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvP4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_joe_rogan_experience_n_n_conan_o_brian_needs_a_friend_n_n_comedy_bang_bang_n_n_the_daily_show_with_trevor_noah_ears_edition"
+            android:textSize="30sp"
+            android:layout_below="@id/tvC"
+            android:layout_marginTop="8dp"/>
+
+
+        <!-- Ajoutez d'autres TextViews pour d'autres podcasts si nécessaire -->
+    </RelativeLayout>

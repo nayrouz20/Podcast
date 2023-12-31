@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MentalHealth"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvMH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suggested list"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvPodcast1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/deep_confessions_podcast_n_n_the_mental_illness_happy_hour_n_n_the_hilarious_world_of_depression_n_n_terrible_things_for_asking_n_n_the_anxiety_coatches_podcast"
+            android:textSize="30sp"
+            android:layout_below="@id/tvMH"
+            android:layout_marginTop="8dp"/>
+
+
+        <!-- Ajoutez d'autres TextViews pour d'autres podcasts si nécessaire -->
+    </RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Home"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select the category"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="30dp" />
+        <!-- Bouton pour le domaine 1 -->
+
+        <!-- Bouton pour le domaine 2 -->
+        <Button
+            android:id="@+id/btnDomaine1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvTitle"
+            android:layout_marginTop="91dp"
+            android:onClick="onDomaineButtonClick"
+            android:text="Actuality" />
+
+        <Button
+            android:id="@+id/btnDomaine2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Technology"
+            android:layout_below="@id/btnDomaine1"
+            android:layout_marginTop="40dp"
+            android:onClick="onDomaineButtonClick"/>
+
+        <!-- Bouton pour le domaine 3 -->
+        <Button
+            android:id="@+id/btnDomaine3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="History"
+            android:layout_below="@id/btnDomaine2"
+            android:layout_marginTop="40dp"
+            android:onClick="onDomaineButtonClick"/>
+
+        <!-- Bouton pour le domaine 4 -->
+        <Button
+            android:id="@+id/btnDomaine4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comedy"
+            android:layout_below="@id/btnDomaine3"
+            android:layout_marginTop="40dp"
+            android:onClick="onDomaineButtonClick"/>
+
+        <!-- Bouton pour le domaine 5 -->
+        <Button
+            android:id="@+id/btnDomaine5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Politics"
+            android:layout_below="@id/btnDomaine4"
+            android:layout_marginTop="40dp"
+            android:onClick="onDomaineButtonClick"/>
+
+        <!-- Bouton pour le domaine 6 -->
+        <Button
+            android:id="@+id/btnDomaine6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mental Health"
+            android:layout_below="@id/btnDomaine5"
+            android:layout_marginTop="40dp"
+            android:onClick="onDomaineButtonClick"/>
+
+    </RelativeLayout>

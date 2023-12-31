@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.History"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvH"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sugggested list"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvP5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hardcore_history_n_n_stuff_you_missed_in_history_class_n_n_the_history_of_rome_n_n_revolutions_n_n_the_britsh_history_podcast"
+            android:textSize="30sp"
+            android:layout_below="@id/tvH"
+            android:layout_marginTop="8dp"/>
+
+
+        <!-- Ajoutez d'autres TextViews pour d'autres podcasts si nécessaire -->
+    </RelativeLayout>

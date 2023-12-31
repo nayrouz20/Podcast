@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Actuality"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvA"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/suggested_list"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvP3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_daily_n_n_bbc_global_news_podcast_n_n_today_explained_n_n_the_economist_radio_n_n_pod_save_america"
+            android:textSize="30sp"
+            android:layout_below="@id/tvA"
+            android:layout_marginTop="8dp"/>
+
+
+        <!-- Ajoutez d'autres TextViews pour d'autres podcasts si nécessaire -->
+    </RelativeLayout>
+

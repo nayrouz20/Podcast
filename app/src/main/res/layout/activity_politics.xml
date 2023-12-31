@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.Politics"
+    android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suggested list"
+            android:textSize="24sp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="16dp"/>
+
+        <TextView
+            android:id="@+id/tvP1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/the_weeds_n_n_the_axe_files_with_david_axelrod_n_n_the_npr_politics_podcast_n_n_five_thirtyeight_politics_n_n_pod_save_america"
+            android:textSize="30sp"
+            android:layout_below="@id/tvP"
+            android:layout_marginTop="8dp"/>
+
+
+        <!-- Ajoutez d'autres TextViews pour d'autres podcasts si nécessaire -->
+    </RelativeLayout>

@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My podcast</string>
+    <string name="suggested_list">Suggested list</string>
+    <string name="the_daily_n_n_bbc_global_news_podcast_n_n_today_explained_n_n_the_economist_radio_n_n_pod_save_america">- The daily\n \n-BBC global news podcast\n \n-Today explained\n \n-The Economist Radio\n \n-Pod save America</string>
+    <string name="accidental_tech_podcast_n_n_tedtalks_technology_n_n_reply_all_n_n_the_vergecast_n_n_wsj_technews_briefing">-Accidental tech podcast\n \n-TedTalks technology\n \n-Reply all\n \n-The VergeCast\n \n-WSJ TechNews briefing</string>
+    <string name="hardcore_history_n_n_stuff_you_missed_in_history_class_n_n_the_history_of_rome_n_n_revolutions_n_n_the_britsh_history_podcast">- HardCore history\n \n-Stuff you missed in history class \n \n-The history of Rome\n \n-Revolutions\n \n-The britsh history podcast</string>
+    <string name="the_joe_rogan_experience_n_n_conan_o_brian_needs_a_friend_n_n_comedy_bang_bang_n_n_the_daily_show_with_trevor_noah_ears_edition">- The Joe Rogan experience\n \n-Conan O\'Brian Needs A Friend\n \n-Comedy Bang!Bang!\n \n-The daily show with Trevor Noah: Ears edition</string>
+    <string name="the_weeds_n_n_the_axe_files_with_david_axelrod_n_n_the_npr_politics_podcast_n_n_five_thirtyeight_politics_n_n_pod_save_america">- The weeds\n \n-The Axe Files with David Axelrod\n \n-The NPR politics podcast\n \n-Five ThirtyEight Politics\n \n-Pod save America</string>
+    <string name="deep_confessions_podcast_n_n_the_mental_illness_happy_hour_n_n_the_hilarious_world_of_depression_n_n_terrible_things_for_asking_n_n_the_anxiety_coatches_podcast">- Deep confessions podcast\n \n-The mental illness happy hour\n \n-The hilarious world of depression\n \n-Terrible, things for asking\n \n-The anxiety coatches podcast</string>
+</resources>

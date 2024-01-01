@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.Politics"
+    android:background="@drawable/podcast"
     android:padding="16dp">
 
         <TextView
@@ -13,6 +14,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Suggested list"
+            android:fontFamily="@font/abril_fatface"
             android:textSize="24sp"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp"/>
@@ -24,6 +26,7 @@
             android:text="@string/the_weeds_n_n_the_axe_files_with_david_axelrod_n_n_the_npr_politics_podcast_n_n_five_thirtyeight_politics_n_n_pod_save_america"
             android:textSize="30sp"
             android:layout_below="@id/tvP"
+            android:fontFamily="@font/abril_fatface"
             android:layout_marginTop="8dp"/>
 
 

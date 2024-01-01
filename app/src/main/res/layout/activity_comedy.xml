@@ -7,6 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.Comedy"
+    android:background="@drawable/podcast"
     android:padding="16dp">
 
         <TextView
@@ -14,6 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Suggested list"
+            android:fontFamily="@font/abril_fatface"
             android:textSize="24sp"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp"/>
@@ -24,6 +26,7 @@
             android:layout_height="wrap_content"
             android:text="@string/the_joe_rogan_experience_n_n_conan_o_brian_needs_a_friend_n_n_comedy_bang_bang_n_n_the_daily_show_with_trevor_noah_ears_edition"
             android:textSize="30sp"
+            android:fontFamily="@font/abril_fatface"
             android:layout_below="@id/tvC"
             android:layout_marginTop="8dp"/>
 

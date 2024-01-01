@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".view.History"
+    android:background="@drawable/podcast"
     android:padding="16dp">
 
         <TextView
@@ -14,6 +15,7 @@
             android:layout_height="wrap_content"
             android:text="Sugggested list"
             android:textSize="24sp"
+            android:fontFamily="@font/abril_fatface"
             android:layout_centerHorizontal="true"
             android:layout_marginBottom="16dp"/>
 
@@ -23,6 +25,7 @@
             android:layout_height="wrap_content"
             android:text="@string/hardcore_history_n_n_stuff_you_missed_in_history_class_n_n_the_history_of_rome_n_n_revolutions_n_n_the_britsh_history_podcast"
             android:textSize="30sp"
+            android:fontFamily="@font/abril_fatface"
             android:layout_below="@id/tvH"
             android:layout_marginTop="8dp"/>
 

@@ -29,7 +29,11 @@
             android:fontFamily="@font/abril_fatface"
             android:layout_below="@id/tvA"
             android:layout_marginTop="8dp"/>
-
+        <Button
+            android:id="@+id/btnBackToHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Return" />
 
         <!-- Ajoutez d'autres TextViews pour d'autres podcasts si nécessaire -->
     </RelativeLayout>
